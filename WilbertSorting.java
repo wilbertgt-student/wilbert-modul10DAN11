@@ -68,16 +68,16 @@ public class WilbertSorting {
         System.out.println(beratBAsc);
 
         System.out.println("\nTim A");
-        System.out.println("Tinggi Max = " + Collections.max(tinggiA));
-        System.out.println("Tinggi Min = " + Collections.min(tinggiA));
-        System.out.println("Berat Max = " + Collections.max(beratA));
-        System.out.println("Berat Min = " + Collections.min(beratA));
+        System.out.println("Tinggi max = " + Collections.max(tinggiA));
+        System.out.println("Tinggi min = " + Collections.min(tinggiA));
+        System.out.println("Berat max = " + Collections.max(beratA));
+        System.out.println("Berat min = " + Collections.min(beratA));
 
         System.out.println("\nTim B");
-        System.out.println("Tinggi Max = " + Collections.max(tinggiB));
-        System.out.println("Tinggi Min = " + Collections.min(tinggiB));
-        System.out.println("Berat Max = " + Collections.max(beratB));
-        System.out.println("Berat Min = " + Collections.min(beratB));
+        System.out.println("Tinggi max = " + Collections.max(tinggiB));
+        System.out.println("Tinggi min = " + Collections.min(tinggiB));
+        System.out.println("Berat max = " + Collections.max(beratB));
+        System.out.println("Berat min = " + Collections.min(beratB));
 
         ArrayList<Integer> tinggiC = new ArrayList<>(tinggiB);
         ArrayList<Integer> beratC = new ArrayList<>(beratB);
